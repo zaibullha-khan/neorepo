@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-21T14:27:52 IST" name="Suite" finished-at="2024-04-21T14:28:12 IST" duration-ms="20269">
+  <suite started-at="2024-04-30T23:45:00 IST" name="Suite" finished-at="2024-04-30T23:45:21 IST" duration-ms="20857">
     <groups>
       <group name="smoke">
-        <method signature="IndexPageTest.RegBtnClickValidate()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" name="RegBtnClickValidate" class="TestClass.IndexPageTest"/>
-        <method signature="IndexPageTest.RegBtnDisplayedValidate()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" name="RegBtnDisplayedValidate" class="TestClass.IndexPageTest"/>
-        <method signature="IndexPageTest.TitleValidate()[pri:1, instance:TestClass.IndexPageTest@515aebb0]" name="TitleValidate" class="TestClass.IndexPageTest"/>
-        <method signature="IndexPageTest.nopCommerceLogoDispValidate()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" name="nopCommerceLogoDispValidate" class="TestClass.IndexPageTest"/>
+        <method signature="IndexPageTest.RegBtnClickValidate()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" name="RegBtnClickValidate" class="TestClass.IndexPageTest"/>
+        <method signature="IndexPageTest.RegBtnDisplayedValidate()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" name="RegBtnDisplayedValidate" class="TestClass.IndexPageTest"/>
+        <method signature="IndexPageTest.TitleValidate()[pri:1, instance:TestClass.IndexPageTest@4cc451f2]" name="TitleValidate" class="TestClass.IndexPageTest"/>
+        <method signature="IndexPageTest.nopCommerceLogoDispValidate()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" name="nopCommerceLogoDispValidate" class="TestClass.IndexPageTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-04-21T14:27:52 IST" name="Test" finished-at="2024-04-21T14:28:12 IST" duration-ms="20269">
+    <test started-at="2024-04-30T23:45:00 IST" name="Test" finished-at="2024-04-30T23:45:21 IST" duration-ms="20857">
       <class name="TestClass.IndexPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:27:47 IST" name="setup" finished-at="2024-04-21T14:27:52 IST" duration-ms="4848" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:44:54 IST" name="setup" finished-at="2024-04-30T23:45:00 IST" duration-ms="5500" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="OpenWebsit(java.lang.String)[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:27:52 IST" name="OpenWebsit" finished-at="2024-04-21T14:27:54 IST" duration-ms="2308" status="PASS">
+        <test-method is-config="true" signature="OpenWebsit(java.lang.String)[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:00 IST" name="OpenWebsit" finished-at="2024-04-30T23:45:02 IST" duration-ms="2257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,39 +35,81 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenWebsit -->
-        <test-method signature="ClickOnShoppingCartValidation()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:27:54 IST" name="ClickOnShoppingCartValidation" finished-at="2024-04-21T14:27:56 IST" duration-ms="2122" status="PASS">
+        <test-method signature="ClickOnShoppingCartValidation()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:02 IST" name="ClickOnShoppingCartValidation" finished-at="2024-04-30T23:45:05 IST" duration-ms="2748" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnShoppingCartValidation -->
-        <test-method signature="ClickOnWishListValidation()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:27:56 IST" name="ClickOnWishListValidation" finished-at="2024-04-21T14:27:58 IST" duration-ms="1696" status="PASS">
+        <test-method signature="ClickOnWishListValidation()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:05 IST" name="ClickOnWishListValidation" finished-at="2024-04-30T23:45:07 IST" duration-ms="1721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnWishListValidation -->
-        <test-method signature="RegBtnClickValidate()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:27:58 IST" name="RegBtnClickValidate" finished-at="2024-04-21T14:28:03 IST" duration-ms="4715" status="PASS">
+        <test-method signature="RegBtnClickValidate()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:07 IST" name="RegBtnClickValidate" finished-at="2024-04-30T23:45:11 IST" duration-ms="4720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegBtnClickValidate -->
-        <test-method signature="RegBtnDisplayedValidate()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:28:03 IST" name="RegBtnDisplayedValidate" finished-at="2024-04-21T14:28:03 IST" duration-ms="247" status="PASS">
+        <test-method signature="RegBtnDisplayedValidate()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:11 IST" name="RegBtnDisplayedValidate" finished-at="2024-04-30T23:45:12 IST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegBtnDisplayedValidate -->
-        <test-method signature="Seachproduct()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:28:03 IST" name="Seachproduct" finished-at="2024-04-21T14:28:09 IST" duration-ms="5885" status="PASS">
+        <test-method signature="Seachproduct()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:12 IST" name="Seachproduct" finished-at="2024-04-30T23:45:17 IST" duration-ms="5721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Seachproduct -->
-        <test-method signature="logInBtn()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:28:09 IST" name="logInBtn" finished-at="2024-04-21T14:28:11 IST" duration-ms="1820" status="PASS">
+        <test-method signature="logInBtn()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:17 IST" name="logInBtn" finished-at="2024-04-30T23:45:19 IST" duration-ms="1501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInBtn -->
-        <test-method signature="nopCommerceLogoDispValidate()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:28:11 IST" name="nopCommerceLogoDispValidate" finished-at="2024-04-21T14:28:11 IST" duration-ms="277" status="PASS">
+        <test-method signature="nopCommerceLogoDispValidate()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:19 IST" name="nopCommerceLogoDispValidate" finished-at="2024-04-30T23:45:19 IST" duration-ms="202" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at TestClass.IndexPageTest.nopCommerceLogoDispValidate(IndexPageTest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nopCommerceLogoDispValidate -->
-        <test-method signature="TitleValidate()[pri:1, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:28:11 IST" name="TitleValidate" finished-at="2024-04-21T14:28:12 IST" duration-ms="1043" status="PASS">
+        <test-method signature="TitleValidate()[pri:1, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:20 IST" name="TitleValidate" finished-at="2024-04-30T23:45:21 IST" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TitleValidate -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.IndexPageTest@515aebb0]" started-at="2024-04-21T14:28:12 IST" name="closeBrowser" finished-at="2024-04-21T14:28:13 IST" duration-ms="1038" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestClass.IndexPageTest@4cc451f2]" started-at="2024-04-30T23:45:21 IST" name="closeBrowser" finished-at="2024-04-30T23:45:22 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
