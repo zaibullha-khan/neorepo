@@ -13,7 +13,7 @@ public class ExtentManager {
 		//htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport_"+BaseClass.getCurrentTime()+".html");
 		htmlReporter= new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"MyReport.html");
 		// this will create and extend report
-		htmlReporter.loadXMLConfig("C:\\Users\\zaibu\\eclipse-workspace\\nopCom\\extent-config.xml");
+		htmlReporter.loadXMLConfig("C:\\Users\\zaibu\\eclipse-workspace\\zaaaza\\extent-config.xml");
 		// load config file
 		//htmlReporter.config().setDocumentTitle("Automation Test Report");
 		//htmlReporter.config().setReportName("OrangeHRM Test Automation Report");

@@ -7,16 +7,9 @@
     <classes>
       <class name="TestClass.IndexPageTest">
         <methods>
-          <include name="RegBtnClickValidate"/>
-          <include name="RegBtnDisplayedValidate"/>
           <include name="nopCommerceLogoDispValidate"/>
           <include name="closeBrowser"/>
-          <include name="ClickOnWishListValidation"/>
-          <include name="Seachproduct"/>
-          <include name="logInBtn"/>
           <include name="setup"/>
-          <include name="ClickOnShoppingCartValidation"/>
-          <include name="TitleValidate"/>
           <include name="OpenWebsit"/>
         </methods>
       </class> <!-- TestClass.IndexPageTest -->
