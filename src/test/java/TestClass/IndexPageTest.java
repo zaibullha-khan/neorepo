@@ -45,7 +45,7 @@ public void TitleValidate()
 public void nopCommerceLogoDispValidate() 
 { 
 	Boolean logo=index.nopCommerceLogoDisplayed();
-	Assert.assertFail(logo);
+	Assert.assertFalse(logo);
 }
 @Test(groups="smoke")
 public void RegBtnDisplayedValidate() 
